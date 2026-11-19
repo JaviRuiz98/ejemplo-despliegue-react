@@ -1,0 +1,56 @@
+.app-header {
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: fit-content;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.menu-column-brand {
+  flex: 0 0 30%;
+  width: 30%;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: system-ui, sans-serif;
+  text-decoration: none;
+}
+
+.menu-text-brand {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #1c1c1c;
+}
+
+.menu-text-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #3a3a3a;
+}
+
+.menu-text-link:hover {
+  color: #111111;
+}
