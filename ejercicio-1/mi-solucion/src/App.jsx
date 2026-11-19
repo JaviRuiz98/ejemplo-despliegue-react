@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className=''>
+      <div className='app-container'>
         
       </div>
     </>
